@@ -9,7 +9,7 @@ Summary(pl):	%{_pearname} - dostêp do serwisów sieciowych Amazon.com
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
-License:	PHP 2.02
+License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	bc168f666bcba86188cddb069c540cbf
@@ -26,10 +26,12 @@ artist, directors, and publishers among other things.
 
 In PEAR status of this package is: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Services_Amazon za pomoc± serwisów sieciowych Amazon.com pozwala
+developerom na wyszukiwania i dostarczanie adresów m.in. dla
+konkretnych numerów ISBN, autorów, artystuów, re¿yserów czy wydawców.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
