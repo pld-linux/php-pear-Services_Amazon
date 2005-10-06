@@ -7,16 +7,18 @@
 Summary:	%{_pearname} - access to Amazon.com's web services
 Summary(pl):	%{_pearname} - dostêp do us³ug sieciowych Amazon.com
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
-Release:	4
+Version:	0.3.0
+Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9aa062c72972679040100ddecf4c8e59
+# Source0-md5:	f7aa4127fe59cefc6d2a3abc1e4e02b9
 URL:		http://pear.php.net/package/Services_Amazon/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-pear-PEAR
 Requires:	php-pear-HTTP_Client
+Requires:	php-pear-HTTP_Request
 Requires:	php-pear-XML_Serializer
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
