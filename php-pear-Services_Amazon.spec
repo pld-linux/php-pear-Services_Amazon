@@ -16,9 +16,9 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Services_Amazon/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
-Requires:	php-pear-PEAR
 Requires:	php-pear-HTTP_Client
 Requires:	php-pear-HTTP_Request
+Requires:	php-pear-PEAR-core
 Requires:	php-pear-XML_Serializer
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
