@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - access to Amazon.com's web services
-Summary(pl):	%{_pearname} - dostêp do us³ug sieciowych Amazon.com
+Summary(pl.UTF-8):   %{_pearname} - dostÄ™p do usÅ‚ug sieciowych Amazon.com
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
 Release:	1
@@ -34,10 +34,10 @@ artist, directors, and publishers among other things.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Services_Amazon za pomoc± us³ug sieciowych Amazon.com pozwala
-deweloperom na wyszukiwanie i dostarczanie adresów m.in. dla
-konkretnych numerów ISBN, autorów, artystów, re¿yserów czy wydawców.
+%description -l pl.UTF-8
+Services_Amazon za pomocÄ… usÅ‚ug sieciowych Amazon.com pozwala
+deweloperom na wyszukiwanie i dostarczanie adresÃ³w m.in. dla
+konkretnych numerÃ³w ISBN, autorÃ³w, artystÃ³w, reÅ¼yserÃ³w czy wydawcÃ³w.
 
 Ta klasa ma w PEAR status: %{_status}.
 
