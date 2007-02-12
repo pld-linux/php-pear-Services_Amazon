@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - access to Amazon.com's web services
-Summary(pl.UTF-8):   %{_pearname} - dostęp do usług sieciowych Amazon.com
+Summary(pl.UTF-8):	%{_pearname} - dostęp do usług sieciowych Amazon.com
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
 Release:	1
