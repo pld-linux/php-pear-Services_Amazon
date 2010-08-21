@@ -3,18 +3,17 @@
 %define		_subclass	Amazon
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - access to Amazon.com's web services
 Summary(pl.UTF-8):	%{_pearname} - dostęp do usług sieciowych Amazon.com
 Name:		php-pear-%{_pearname}
 Version:	0.8.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	96a663a160ea48d7a89af54270d9d3d1
 URL:		http://pear.php.net/package/Services_Amazon/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
@@ -22,6 +21,7 @@ Requires:	php-pear-HTTP_Client
 Requires:	php-pear-HTTP_Request
 Requires:	php-pear-PEAR-core
 Requires:	php-pear-XML_Serializer >= 0.17.0
+Suggests:	php-pear-Cache
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
