@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Services
 %define		_subclass	Amazon
 %define		_status		beta
